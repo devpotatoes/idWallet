@@ -1,0 +1,9 @@
+[package]
+name = "wallet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pairing_crypto = { git = "https://github.com/mattrglobal/pairing_crypto" }
+serde = { version = "1", features = ["derive"] }
+hex = "0.4"
